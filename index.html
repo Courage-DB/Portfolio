@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courage Ahorlu - Cybersecurity & IT Specialist</title>
+    <style>
+        :root {
+            --bg-color: #1ba4c6;
+            --card-bg: #111827;
+            --accent-color: #38bdf8;
+            --accent-glow: rgba(56, 189, 248, 0.2);
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --border-color: #1f2937;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-image: linear-gradient(rgba(10, 15, 28, 0.7), rgba(10, 15, 28, 0.7)), url('https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif');
+            background-color: var(--bg-color);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, rgba(17, 24, 39, 0.9), rgba(30, 41, 59, 0.8)), url('https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid var(--border-color);
+            position: relative;
+            overflow: hidden;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(11, 15, 25, 0.85);
+            z-index: 1;
+        }
+        header > * {
+            position: relative;
+            z-index: 2;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid var(--accent-color);
+            box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+            margin: 0 auto 20px;
+            display: block;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            color: var(--accent-color);
+            letter-spacing: -0.5px;
+        }
+        header p {
+            color: var(--text-muted);
+            font-size: 1.15rem;
+            margin-top: 10px;
+        }
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .social-links a {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent-color);
+            border: 1px solid var(--accent-color);
+            padding: 8px 18px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .social-links a:hover {
+            background: var(--accent-color);
+            color: var(--bg-color);
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
+        .section {
+            background: var(--card-bg);
+            margin-top: 30px;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            border: 1px solid var(--border-color);
+        }
+        .section h2 {
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+        .skills-grid li {
+            background: #588bd3;
+            color: var(--text-main);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid #374151;
+        }
+        .tech-banner {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--text-muted);
+            font-size: 0.95srem;
+            padding-bottom: 20px;
+        }
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Profile Info -->
+        <header>
+            <img src="e:\MjFile\MIFILIES\d93d16a0-20bf-474c-931b-9210d944d295.jpg" alt="Courage Ahorlu profile" class="profile-image">
+            <h1>Courage Ahorlu</h1>
+            <p>Cybersecurity & IT Operations Specialist | SOC Analyst & GRC Practitioner</p>
+            <div class="social-links">
+                <a href="https://github.com/courage-db" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+                <a href="mailto:courageahorlu0@gmail.com">Email Me</a>
+            </div>
+        </header>
+
+        <!-- About Summary -->
+        <section class="section">
+            <h2>About Me</h2>
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" alt="Cybersecurity Tech Visual" class="tech-banner">
+            <p>Courage Ahorlu is a proactive and analytical Cybersecurity professional with a BTech in Cybersecurity and IT. Experienced in Security Operations Center (SOC) environments, threat monitoring, security incident investigation, digital forensics, and aligning technical controls with data protection compliance frameworks. He earned his BTech in Cybersecurity and Information Technology from Accra Technical University, complemented by Cisco certifications in network support, security, and ethical hacking, alongside hands-on training platforms like TryHackMe and Hack The Box. His professional experience includes working as a cybersecurity intern at the Ghana Railway Development Authority where he monitored network logs, ran vulnerability scans, and supported IT infrastructure and serving as a web designer and IT support specialist at Supertech Limited. Additionally, his notable projects include engineering an automated GRC dashboard designed to track compliance with Ghana's Data Protection Act (Act 843), building a strong skill set in SOC workflows, digital forensics, Linux administration, network analysis, and web development. </p>
+        </section>
+
+        <!-- Skills -->
+        <section class="section">
+            <h2>Core Competencies</h2>
+            <ul class="skills-grid">
+                <li>Security Operations (SOC)</li>
+                <li>SIEM (Splunk, ELK Stack)</li>
+                <li>Digital Forensics (DFIR)</li>
+                <li>Ethical Hacking & Penetration Testing</li>
+                <li>Governance, Risk & Compliance (GRC)</li>
+                <li>Linux Administration (Parrot/Kali)</li>
+                <li>Network Security & Wireshark</li>
+                <li>Web Development (PHP, JS, HTML)</li>
+            </ul>
+        </section>
+
+        <!-- Experience & Projects -->
+        <section class="section">
+            <h2>Experience & Projects</h2>
+            <ul>
+                <li><strong>Cybersecurity Intern</strong> – Ghana Railway Development Authority (Managed network logs, vulnerability scans, and GRC controls).</li>
+                <li><strong>Integrated GRC & Log Analysis Platform</strong> – Final-year project automating event parsing and tracking privacy compliance under Ghana's Data Protection Act (Act 843).</li>
+                <li><strong>IT Support & Web Designer</strong> – Supertech Limited (Handled technical infrastructure and web application deployment).</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <div class="contact-info">
+            <p>Get in touch: <a href="mailto:courageahorlu0@gmail.com">courageahorlu0@gmail.com</a> | Phone: +233 24 473 3934</p>
+        </div>
+    </div>
+
+</body>
+</html>
